@@ -1,0 +1,15 @@
+{
+    "name": "lenovo/ajax",
+    "description": "",
+    "authors": [
+        {
+            "name": "Cristian Bittencourt",
+            "email": "cristian.candia7@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "app\\": "app/"
+        }
+    }
+}
