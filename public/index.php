@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" 
     integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
     <title>Pesquisa Bem Promotora</title>
 </head>
 
@@ -15,10 +16,11 @@
     <div class="container d-flex justify-content-space-between align-items-center flex-column">
         <div class="btn-group mb-4">
     
-            <button id="iniciar-pesquisa" class=" btn btn-dark mt-4 w-100 ">Iniciar</button>
+            <button id="iniciar-pesquisa" class=" btn btn-dark mt-4 ">Iniciar</button>
             <!-------Botão do evento----------------------------------------------------------------------------------->
-            <button id="lista" class=" btn btn-dark mt-4 w-100">Listar</button>
+            <button id="lista" class=" btn btn-dark mt-4 ">Listar</button>
             <!----------#########---------------------------------------------------------------------------------->
+            <button id="grafico" class="btn btn-dark mt-4">Gráfico</button>
 
         </div>
 
@@ -26,6 +28,8 @@
 
         </div>
 
+        <div class="grafico-container bg-light text-muted" id="grafico-container"></div>
+    
         <form id="formulario-pesquisa" name="formulario" class="form-group d-flex flex-column"></form>
             
     </div>

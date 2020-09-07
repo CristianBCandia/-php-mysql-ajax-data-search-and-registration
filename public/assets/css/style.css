@@ -1,0 +1,44 @@
+:root {
+
+    --altura-item-grafico: 0%;
+
+}
+
+.grafico-container {
+
+    width: 1200px;
+    height: 80vh;
+    display: none;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding-bottom: 50px;
+    padding-right: 30px;
+    box-shadow: 0 0 30px #888;
+    
+    
+}
+
+.item-grafico {
+    
+    width: 55px;
+    background-color: rgb(231, 165, 165);
+    box-shadow: 2px -3px 2px #444;
+    top: 0;
+    color: black;
+    margin-left: 40px;
+    
+}
+
+@keyframes gerar-altura {
+
+    from{ height: 0%; }
+    to{ height: var(--altura-item-grafico); }
+
+}
+
+.dados-pesquisa {
+
+    position: absolute;
+
+}
+
