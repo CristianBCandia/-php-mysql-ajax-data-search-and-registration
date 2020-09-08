@@ -12,7 +12,7 @@
 
 
 ### Extra implementations
-* Uma relatório com as respostas da pesquisa.
-* Um gráfico gerado dinamicamente com a porcentagem de cada resposta.
+* A report with the survey responses.
+*  A dynamically generated graph with the percentage of each answer.
 
 
