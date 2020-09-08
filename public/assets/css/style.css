@@ -29,12 +29,6 @@
     
 }
 
-@keyframes gerar-altura {
-
-    from{ height: 0%; }
-    to{ height: var(--altura-item-grafico); }
-
-}
 
 .dados-pesquisa {
 
